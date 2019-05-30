@@ -407,7 +407,6 @@ PlayerSettings:
     m_Enabled: 1
     m_Devices:
     - Oculus
-    - OpenVR
   - m_BuildTarget: iPhone
     m_Enabled: 1
     m_Devices:
@@ -419,7 +418,6 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Enabled: 1
     m_Devices:
-    - Oculus
     - cardboard
   m_BuildTargetEnableVuforiaSettings: []
   openGLRequireES31: 0
@@ -676,7 +674,7 @@ PlayerSettings:
     28: UNITY_POST_PROCESSING_STACK_V2
   platformArchitecture: {}
   scriptingBackend:
-    Android: 1
+    Android: 0
   il2cppCompilerConfiguration:
     Android: 2
   managedStrippingLevel: {}
